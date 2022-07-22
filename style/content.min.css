@@ -4,7 +4,7 @@ section {
 
 @media screen and (max-width: 768px) {
   section {
-    padding: 10%;
+    padding: 20% 10%;
   }
 }
 
@@ -141,7 +141,7 @@ section .item-list {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  margin: 2em auto;
+  margin: 2em auto 0 auto;
 }
 
 #technologies .technologies-list .technology-item {
