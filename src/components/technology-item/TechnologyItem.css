@@ -1,0 +1,23 @@
+.technology-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    margin: 2.5% 1%;
+    padding: 0 7.5%;
+}
+
+.technology-item img {
+    margin-bottom: 1rem;
+}
+
+.technology-item .project-item-content-wrapper {
+    padding: var(--fnt-sizeSmaller);
+}
+
+@media screen and (max-width: 768px) {
+    .technology-item {
+        width: 30%;
+        padding: 0 10%;
+    }
+}

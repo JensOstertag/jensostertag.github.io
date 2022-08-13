@@ -1,0 +1,13 @@
+.website-content-wrapper {
+  min-height: 80vh;
+}
+
+section {
+  padding: 10% 20%;
+}
+
+@media screen and (max-width: 768px) {
+  section {
+    padding: 20% 10%;
+  }
+}

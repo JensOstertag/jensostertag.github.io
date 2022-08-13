@@ -1,0 +1,18 @@
+#projects button {
+    background-color: var(--clr-brightColor1);
+    color: var(--clr-white);
+    border: none;
+    border-radius: .25em;
+    padding: .5em;
+    cursor: pointer;
+    transition: background-color 100ms linear;
+}
+
+#projects button:hover {
+    background-color: var(--clr-brightColor2);
+}
+
+#projects button p {
+    font-size: 1rem;
+    margin-bottom: 0;
+}

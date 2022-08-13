@@ -1,0 +1,7 @@
+#project .project-technology {
+    margin-bottom: 2.5em;
+}
+
+#project .project-technology span {
+    color: var(--clr-gray);
+}

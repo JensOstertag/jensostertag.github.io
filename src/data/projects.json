@@ -1,0 +1,34 @@
+{
+    "cnn": {
+        "name": "Convolutional Neural Network",
+        "technologies": [
+            "Java"
+        ],
+        "description": "A Convolutional Neural Network (or short: CNN) is used for Object Detection within Images. I've developed my own object-oriented CNN using Java and decided to make it an Open-Source Project. You can have a Look at my Code on the <a href=\"https://github.com/JensOstertag/ConvolutionalNeuralNetwork\">GitHub Repository</a>.",
+        "developmentTimespan": "This Project has been in Development since March 2022 and is being updated (more or less) actively."
+    },
+    "3dprinter": {
+        "name": "3D Printer",
+        "technologies": [
+            "C++", "MarlinFirmware"
+        ],
+        "description": "This is custom-designed FDM 3D Printer running on Marlin Firmware. It has a Print Size of approximatley 14x14x20cm. All the Models are uploaded on the <a href=\"https://github.com/JensOstertag/3DPrinter\">GitHub Repository</a>.",
+        "developmentTimespan": "This Project was developed between November 2020 and March 2021."
+    },
+    "coronaapp": {
+        "name": "CoronaApp",
+        "technologies": [
+            "PHP", "MySQL", "Java for Android"
+        ],
+        "description": "During the first Lockdown back in March 2020, I've read about the Development of a Smartphone App used for tracking Contact Persons using BlueTooth. Because it took quite a While until the official App was released, together with a Friend I've worked on our own Version which ended up to be very similar to the Original one.",
+        "developmentTimespan": "This project was developed between April and May 2020."
+    },
+    "iot-weatherstation": {
+        "name": "IoT-capable Weatherstation",
+        "technologies": [
+            "Arduino / C++", "PHP", "MySQL"
+        ],
+        "description": "The goal of this Project was to develop a Weatherstation capable to push it's Measurements into a Database, from where the Data could be pulled to be used on any other Device. You can have a Look at my Code on the <a href=\"https://github.com/JensOstertag/IoT-Weatherstation\">GitHub Repository</a>.",
+        "developmentTimespan": "This project was developed between November 2019 and March 2020. It's been updated again in July and August 2022 for a better Data Storage, so all Data could be used for training a Weather Forecast AI."
+    }
+}
