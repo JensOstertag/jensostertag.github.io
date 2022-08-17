@@ -16,6 +16,7 @@ class ProjectsList extends React.Component {
                 <ProjectItem project="Convolutional Neural Network" referenceName="cnn" preview="0" />
                 <ProjectItem project="3D Printer" referenceName="3dprinter" preview="0" />
                 <ProjectItem project="CoronaApp" referenceName="coronaapp" preview="0" />
+                <ProjectItem project="IoT-capable Weatherstation" referenceName="iot-weatherstation" preview={this.state.preview} />
             </div>
         );
     }
