@@ -63,3 +63,7 @@
         width: 100%;
     }
 }
+
+.project-item[preview="1"] {
+    display: none;
+}

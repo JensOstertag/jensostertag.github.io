@@ -22,7 +22,7 @@ class ProjectsSection extends React.Component {
                 <h1 className="viewport-animation viewport-top">
                     Projects
                 </h1>
-                <ProjectsList />
+                <ProjectsList preview={this.state.preview} />
                 {button}                
             </section>
         );
