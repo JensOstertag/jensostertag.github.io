@@ -5,8 +5,8 @@ class TechnologyItem extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            technology: props.technology,
-            technologyImage: process.env.PUBLIC_URL + "/img/ico/tech/" + props.technology.toLowerCase() + ".svg"
+            "technology": props.technology,
+            "technologyImage": process.env.PUBLIC_URL + "/img/ico/tech/" + props.technology.toLowerCase() + ".svg"
         }
     }
 
