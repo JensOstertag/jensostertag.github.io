@@ -7,16 +7,18 @@ import ProjectsSection from '../../components/section-projects/ProjectsSection';
 import TechnologiesSection from '../../components/section-technologies/TechnologiesSection';
 import ContactSection from '../../components/section-contact/ContactSection';
 
-function Home() {  
-  return (
-    <div>
-      <HomeSection />
-      <AboutSection />
-      <ProjectsSection preview="1"/>
-      <TechnologiesSection />
-      <ContactSection />
-    </div>
-  );
+class Home extends React.Component {
+  render() {
+    return (
+      <div>
+        <HomeSection />
+        <AboutSection />
+        <ProjectsSection preview="1"/>
+        <TechnologiesSection />
+        <ContactSection />
+      </div>
+    );
+  }
 }
 
 export default Home;
