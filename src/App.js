@@ -10,7 +10,7 @@ import ProjectsSection from './components/section-projects/ProjectsSection';
 import Project from './pages/project/Project';
 import ContactSection from './components/section-contact/ContactSection.js';
 
-import ScrollToTop from './ScrollToTop.js';
+import RouteChanged from './RouteChanged.js';
 
 class App extends React.Component {
   render() {
@@ -18,7 +18,7 @@ class App extends React.Component {
       <Router>
         <Header />
         <div className="website-content-wrapper">
-          <ScrollToTop>
+          <RouteChanged>
             <Routes>
               <Route index element={<Home />} />
               <Route path="/projects" element={<ProjectsSection preview="0"/>} />
@@ -29,7 +29,7 @@ class App extends React.Component {
               <Route path="/contact" element={<ContactSection />} />
               <Route path="*" element={<Navigate to="/" />} />
             </Routes>
-          </ScrollToTop>
+          </RouteChanged>
         </div>
         <Footer />
       </Router>
