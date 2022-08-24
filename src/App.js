@@ -8,7 +8,8 @@ import Footer from './components/footer/Footer';
 import Home from './pages/home/Home';
 import ProjectsSection from './components/section-projects/ProjectsSection';
 import Project from './pages/project/Project';
-import ContactSection from './components/section-contact/ContactSection.js';
+import ContactSection from './components/section-contact/ContactSection';
+import Resume from './pages/resume/Resume';
 
 import RouteChanged from './RouteChanged.js';
 
@@ -27,6 +28,7 @@ class App extends React.Component {
               <Route path="/projects/coronaapp" element={<Project project="coronaapp" />} />
               <Route path="/projects/iot-weatherstation" element={<Project project="iot-weatherstation" />} />
               <Route path="/contact" element={<ContactSection />} />
+              <Route path="/resume" element={<Resume />} />
               <Route path="*" element={<Navigate to="/" />} />
             </Routes>
           </RouteChanged>
