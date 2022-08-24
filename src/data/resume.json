@@ -1,0 +1,76 @@
+{
+    "events": [
+        {
+            "name": "Buigen-Gymnasium Herbrechtingen",
+            "addition": "Abitur (Physics, Mathematics, Geography)",
+            "details": [],
+            "from": "2013-09-01T00:00:00",
+            "to": "2021-07-01T00:00:00",
+            "type": "education"
+        },
+        {
+            "name": "Ulm University",
+            "addition": "Bachelor of Science (Software Engineering)",
+            "details": [],
+            "from": "2021-10-01T00:00:00",
+            "to": "now",
+            "type": "education"
+        },
+        {
+            "name": "Newlite Systems GmbH, Heidenheim",
+            "addition": "Student Internship",
+            "details": ["Mandatory Internship as Part of Career Orientation during 10th Grade"],
+            "from": "2019-07-01T00:00:00",
+            "to": "2019-07-01T00:00:00",
+            "type": "employment"
+        },
+        {
+            "name": "BSH Hausgeräte GmbH, Giengen",
+            "addition": "Holiday Work",
+            "details": ["Holiday Work in Shifts"],
+            "from": "2022-08-01T00:00:00",
+            "to": "2022-09-01T00:00:00",
+            "type": "employment"
+        },
+        {
+            "name": "MINT-EC Certificate",
+            "addition": "acquired with Distinction",
+            "details": [],
+            "from": "2021-07-01T00:00:00",
+            "to": "2021-07-01T00:00:00",
+            "type": "achievment"
+        },
+        {
+            "name": "Membership in German Physical Society",
+            "addition": "",
+            "details": [],
+            "from": "2021-07-01T00:00:00",
+            "to": "2021-07-01T00:00:00",
+            "type": "achievment"
+        },
+        {
+            "name": "Jugend Forscht 2020",
+            "addition": "",
+            "details": ["Development of an IoT-Capable Weatherstation"],
+            "from": "2020-02-01T00:00:00",
+            "to": "2020-02-01T00:00:00",
+            "type": "participation"
+        },
+        {
+            "name": "Jugend Forscht 2021",
+            "addition": "",
+            "details": ["Development of a Mobile Shopping App for local Retail Stores"],
+            "from": "2021-02-01T00:00:00",
+            "to": "2021-02-01T00:00:00",
+            "type": "participation"
+        },
+        {
+            "name": "State Competition for Political Education 2021",
+            "addition": "",
+            "details": ["Artificial Intelligence - Chances and Risks"],
+            "from": "2021-04-01T00:00:00",
+            "to": "2021-04-01T00:00:00",
+            "type": "participation"
+        }
+    ]
+}

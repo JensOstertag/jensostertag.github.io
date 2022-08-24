@@ -1,0 +1,13 @@
+#resume {
+    padding: 5% 20%;
+}
+
+@media screen and (max-width: 768px) {
+    #resume {
+        padding: 10% 10%;
+    }
+}
+
+#resume h2 {
+    margin: 2.5em 0 0 0;
+}

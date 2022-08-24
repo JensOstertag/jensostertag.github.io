@@ -1,0 +1,30 @@
+.resume-item {
+    margin: 1em 0;
+}
+
+.resume-item p:not(.resume-item-date) {
+    margin-left: 1em;
+}
+
+.resume-item p {
+    margin: 0;
+}
+
+.resume-item .resume-item-date {
+    color: var(--clr-gray);
+}
+
+.resume-item span {
+    font-style: italic;
+    color: var(--clr-gray);
+}
+
+.resume-item ul {
+    margin-left: calc(5% + 1em);
+}
+
+@media screen and (max-width: 768px) {
+    .resume-item ul {
+        margin-left: calc(10% + 1em);
+    }
+}
