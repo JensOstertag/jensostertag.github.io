@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './AboutSection.css';
 
 class AboutSection extends React.Component {
@@ -15,6 +16,7 @@ class AboutSection extends React.Component {
                     <p className="viewport-animation viewport-bottom">
                         Currently, I'm enrolled at Ulm University to study Software Engineering.
                     </p>
+                    <Link to="/resume"><button><p>View Résumé</p></button></Link>
                 </div>
             </section>
         );

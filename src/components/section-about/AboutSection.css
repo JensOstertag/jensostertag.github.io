@@ -13,3 +13,22 @@
 #about .wrapper {
     transform: skewY(-2.5deg);
 }
+
+#about button {
+    background-color: var(--clr-brightColor1);
+    color: var(--clr-white);
+    border: none;
+    border-radius: .25em;
+    padding: .5em;
+    cursor: pointer;
+    transition: background-color 100ms linear;
+  }
+  
+  #about button:hover {
+    background-color: var(--clr-brightColor2);
+  }
+  
+  #about button p {
+    font-size: 1rem;
+    margin-bottom: 0;
+  }
