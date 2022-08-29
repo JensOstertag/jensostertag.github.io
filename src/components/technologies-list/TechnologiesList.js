@@ -14,6 +14,7 @@ class ProjectsList extends React.Component {
                 <TechnologyItem technology="CSS" className="viewport-animation viewport-top" />
                 <TechnologyItem technology="BootStrap" className="viewport-animation viewport-top" />
                 <TechnologyItem technology="JavaScript" className="viewport-animation viewport-top" />
+                <TechnologyItem technology="React" className="viewport-animation viewport-top" />
                 <TechnologyItem technology="PHP" className="viewport-animation viewport-top" />
                 <TechnologyItem technology="MySQL" className="viewport-animation viewport-top" />
                 <TechnologyItem technology="TensorFlow" className="viewport-animation viewport-top" />
