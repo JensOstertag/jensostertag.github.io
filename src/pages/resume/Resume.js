@@ -36,31 +36,33 @@ class Resume extends React.Component {
         achievmentEvents.sort(sortEvents);
         participationEvents.sort(sortEvents);
 
-        var education = [];
-        var employment = [];
-        var achievment = [];
-        var participation = [];
-
-        for(i = 0; i < educationEvents.length; i++)
-            education.push(<ResumeItem key={"a" + i} index={events.indexOf(educationEvents[i])} />);
-        for(i = 0; i < employmentEvents.length; i++)
-            employment.push(<ResumeItem key={"b" + i}index={events.indexOf(employmentEvents[i])} />);
-        for(i = 0; i < achievmentEvents.length; i++)
-            achievment.push(<ResumeItem key={"c" + i}index={events.indexOf(achievmentEvents[i])} />);
-        for(i = 0; i < participationEvents.length; i++)
-            participation.push(<ResumeItem key={"d" + i} index={events.indexOf(participationEvents[i])} />);
-
         return (
             <section id="resume">
                 <h1>Résumé</h1>
                 <h2>Education</h2>
-                {education}
+                {
+                    educationEvents.map((event, i) =>
+                        <ResumeItem key={"a" + i} index={events.indexOf(event)} />
+                    )
+                }
                 <h2>Work Experience</h2>
-                {employment}
+                {
+                    employmentEvents.map((event, i) =>
+                        <ResumeItem key={"b" + i} index={events.indexOf(event)} />
+                    )
+                }
                 <h2>Achievments and Certificates</h2>
-                {achievment}
+                {
+                    achievmentEvents.map((event, i) =>
+                        <ResumeItem key={"c" + i} index={events.indexOf(event)} />
+                    )
+                }
                 <h2>Extra Activities</h2>
-                {participation}
+                {
+                    participationEvents.map((event, i) =>
+                        <ResumeItem key={"d" + i} index={events.indexOf(event)} />
+                    )
+                }
             </section>
         );
     }
