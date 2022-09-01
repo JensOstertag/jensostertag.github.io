@@ -21,3 +21,9 @@
         padding: 0 10%;
     }
 }
+
+@media screen and (max-width: 480px) {
+    .technology-item {
+        width: 35%;
+    }
+}

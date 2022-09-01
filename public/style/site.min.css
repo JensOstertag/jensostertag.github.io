@@ -48,6 +48,12 @@ p {
   margin-bottom: 1rem;
 }
 
+@media screen and (max-width: 768px) {
+  p {
+    font-size: var(--fnt-sizeSmaller);
+  }
+}
+
 p.nomargin {
   margin-bottom: 0;
 }
