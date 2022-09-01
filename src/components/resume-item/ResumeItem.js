@@ -55,7 +55,13 @@ class ResumeItem extends React.Component {
                     </span>
                 </p>
                 <ul>
-                    {details}
+                    {
+                        this.state.details.map((detail, i) => (
+                            <li key={i}>
+                                {detail}
+                            </li>
+                        ))
+                    }
                 </ul>
             </div>
         )

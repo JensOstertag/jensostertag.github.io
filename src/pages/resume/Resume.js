@@ -23,7 +23,7 @@ class Resume extends React.Component {
         var i;
         for(i = 0; i < events.length; i++) {
             switch(events[i].type.toLowerCase()) {
-                case "education": educationEvents.push(events[i]);break;
+                case "education": educationEvents.push(events[i]); break;
                 case "employment": employmentEvents.push(events[i]); break;
                 case "achievment": achievmentEvents.push(events[i]); break;
                 case "participation": participationEvents.push(events[i]); break;
@@ -41,26 +41,30 @@ class Resume extends React.Component {
                 <h1>Résumé</h1>
                 <h2>Education</h2>
                 {
-                    educationEvents.map((event, i) =>
-                        <ResumeItem key={"a" + i} index={events.indexOf(event)} />
+                    educationEvents.map((event, i) => (
+                            <ResumeItem key={"a" + i} index={events.indexOf(event)} />
+                        )
                     )
                 }
                 <h2>Work Experience</h2>
                 {
-                    employmentEvents.map((event, i) =>
-                        <ResumeItem key={"b" + i} index={events.indexOf(event)} />
+                    employmentEvents.map((event, i) => (
+                            <ResumeItem key={"b" + i} index={events.indexOf(event)} />
+                        )
                     )
                 }
                 <h2>Achievments and Certificates</h2>
                 {
-                    achievmentEvents.map((event, i) =>
-                        <ResumeItem key={"c" + i} index={events.indexOf(event)} />
+                    achievmentEvents.map((event, i) => (
+                            <ResumeItem key={"c" + i} index={events.indexOf(event)} />
+                        )
                     )
                 }
                 <h2>Extra Activities</h2>
                 {
-                    participationEvents.map((event, i) =>
-                        <ResumeItem key={"d" + i} index={events.indexOf(event)} />
+                    participationEvents.map((event, i) => (
+                            <ResumeItem key={"d" + i} index={events.indexOf(event)} />
+                        )
                     )
                 }
             </section>

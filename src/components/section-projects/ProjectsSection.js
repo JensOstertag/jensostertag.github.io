@@ -13,17 +13,15 @@ class ProjectsSection extends React.Component {
     }
 
     render() {
-        var button = [];
-        if(this.state.preview === "1")
-            button.push(<Link to="/projects" key="0"><button><p>See all Projects</p></button></Link>);
-
         return (
             <section id="projects">
                 <h1 className="viewport-animation viewport-top">
                     Projects
                 </h1>
                 <ProjectsList preview={this.state.preview} />
-                {button}                
+                {
+                    this.state.preview === "1" ? <Link to="/projects"><button><p>See all Projects</p></button></Link> : < > </>
+                }                
             </section>
         );
     }
