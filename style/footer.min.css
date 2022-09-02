@@ -12,6 +12,10 @@ footer {
   cursor: default;
 }
 
+.footer-text span {
+  display: inline-block;
+}
+
 .footer-text,
 .footer-sections .footer-section .footer-title,
 .footer-sections .footer-section .footer-link {
@@ -77,6 +81,7 @@ footer hr {
 .copyright {
   display: inline-block;
   margin-top: 10px;
+  margin-bottom: 0;
 }
 
 .version {
