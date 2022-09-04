@@ -4,13 +4,13 @@ nav {
   align-items: center;
   min-height: 10vh;
   padding: 0 2.5%;
-  background: var(--clr-dark1);
-  box-shadow: 0 1px 2px rgba(0,0,0,0.07),
+  background: var(--clr-bright1);
+  /* box-shadow: 0 1px 2px rgba(0,0,0,0.07),
                 0 2px 4px rgba(0,0,0,0.07),
                 0 4px 8px rgba(0,0,0,0.07),
                 0 8px 16px rgba(0,0,0,0.07),
                 0 16px 32px rgba(0,0,0,0.07),
-                0 32px 64px rgba(0,0,0,0.07);
+                0 32px 64px rgba(0,0,0,0.07); */
 }
 
 /* Logo */
@@ -22,7 +22,7 @@ nav {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  color: var(--clr-white);
+  color: var(--clr-black);
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -132,7 +132,7 @@ nav ul {
 .burger div {
   width: 25px;
   height: 2px;
-  background-color: var(--clr-white);
+  background-color: var(--clr-black);
   margin: 6px;
   cursor: pointer;
   transition: all 200ms linear;
@@ -158,21 +158,24 @@ nav ul {
 /* Alpha Background */
 .alpha {
   position: absolute;
-  width: 100vw;
+  width: 100%;
   height: 90vh;
   top: 10vh;
   left: 0;
   background-color: rgba(0, 0, 0, 0.5);
+  transition: opacity 1000ms linear;
 }
 
 .alpha-default {
   z-index: 0;
-  display: none;
+  /* display: none; */
+  opacity: 0%;
 }
 
 .alpha-active {
   z-index: 1;
   display: block;
+  opacity: 100%;
 }
 
 /* Responsive Nav */
