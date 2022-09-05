@@ -205,6 +205,11 @@ nav ul {
   .nav-active li {
     margin: 10% 5%;
   }
+
+  .alpha-active {
+    z-index: 0;
+    opacity: 0%;
+  }
 }
 
 @keyframes navLinkFade {
