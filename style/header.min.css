@@ -199,11 +199,16 @@ nav ul {
   }
   
   .nav-active {
-    width: 70%;
+    width: 100%;
   }
 
   .nav-active li {
     margin: 10% 5%;
+  }
+
+  .alpha-active {
+    z-index: 0;
+    opacity: 0%;
   }
 }
 
