@@ -158,9 +158,9 @@ nav ul {
 /* Alpha Background */
 .alpha {
   position: absolute;
-  width: 100%;
-  height: 90vh;
-  top: 10vh;
+  width: 60%;
+  height: 100vh;
+  top: 0vh;
   left: 0;
   background-color: rgba(0, 0, 0, 0.5);
   transition: opacity 1000ms linear;
@@ -190,6 +190,10 @@ nav ul {
 
   .nav-active li {
     margin: 7.5% 5%;
+  }
+
+  .alpha {
+    width: 45%;
   }
 }
 
