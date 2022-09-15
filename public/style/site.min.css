@@ -130,7 +130,6 @@ div#root {
   min-height: 100vh;
 }
 
-noscript.errormessage {
-  display: block;
+noscript .errormessage {
   padding: 10% 10%;
 }
