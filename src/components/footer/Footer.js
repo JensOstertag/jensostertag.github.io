@@ -7,6 +7,7 @@ class Footer extends React.Component {
         return (
             <footer>
                 <div className="wrapper">
+                    <hr />
                     <div className="footer-text">
                         <div className="footer-logo">
                             <img src={process.env.PUBLIC_URL + "/img/icon.svg"} alt="" />
