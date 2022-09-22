@@ -9,8 +9,13 @@ export function toggleSidebar() {
     // Toggle Navigation
     nav.classList.toggle('nav-default');
     nav.classList.toggle('nav-active');
-    alpha.classList.toggle('alpha-default');
-    alpha.classList.toggle('alpha-active');
+
+    // Animate Alpha Screen
+    if(alpha.style.animation.includes("alphaScreenFadeIn")) {
+        alpha.style.animation = "alphaScreenFadeOut 200ms ease forwards";
+    } else {
+        alpha.style.animation = "alphaScreenFadeIn 1000ms ease forwards";
+    }
 
     // Change Burger
     burger.classList.toggle('close');
@@ -37,9 +42,9 @@ export function toggleSidebar() {
     // Animate Link
     navLinks.forEach((link, index) => {
         if(link.style.animation) {
-        link.style.animation = '';
+            link.style.animation = '';
         } else {
-        link.style.animation = `navLinkFade 200ms ease forwards`;
+            link.style.animation = `navLinkFade 200ms ease forwards`;
         }
 
         link.addEventListener('click', () => {
