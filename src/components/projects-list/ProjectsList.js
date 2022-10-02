@@ -15,7 +15,6 @@ class ProjectsList extends React.Component {
 
     render() {
         var projects = jsonProjects.projects;
-        console.log(projects);
 
         return (
             <div className="projects-list">
