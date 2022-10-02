@@ -3,6 +3,8 @@ import './ProjectsList.css';
 
 import ProjectItem from '../project-item/ProjectItem';
 
+const jsonProjects = require("../../data/projects.json");
+
 class ProjectsList extends React.Component {
     constructor(props) {
         super(props);
@@ -10,13 +12,19 @@ class ProjectsList extends React.Component {
             "preview": props.preview
         };
     }
+
     render() {
+        var projects = jsonProjects.projects;
+        console.log(projects);
+
         return (
             <div className="projects-list">
-                <ProjectItem project="Convolutional Neural Network" referenceName="cnn" preview="0" />
-                <ProjectItem project="3D Printer" referenceName="3dprinter" preview="0" />
-                <ProjectItem project="CoronaApp" referenceName="coronaapp" preview="0" />
-                <ProjectItem project="IoT-capable Weatherstation" referenceName="iot-weatherstation" preview={this.state.preview} />
+                {
+                    projects.map((project, i) => (
+                            <ProjectItem key={i} project={project.name} referenceName={project.link} preview={project.alwaysshown === "yes" ? "0" : this.state.preview} />
+                        )
+                    )
+                }
             </div>
         );
     }
