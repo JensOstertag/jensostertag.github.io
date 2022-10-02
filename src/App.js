@@ -13,8 +13,11 @@ import Resume from './pages/resume/Resume';
 
 import RouteChanged from './RouteChanged.js';
 
+const jsonProjects = require("./data/projects.json");
+
 class App extends React.Component {
   render() {
+    var projects = jsonProjects.projects;
     return (
       <Router>
         <Header />
@@ -23,10 +26,14 @@ class App extends React.Component {
             <Routes>
               <Route index element={<Home />} />
               <Route path="/projects" element={<ProjectsSection preview="0"/>} />
-              <Route path="/projects/cnn" element={<Project project="cnn" />} />
-              <Route path="/projects/3dprinter" element={<Project project="3dprinter" />} />
-              <Route path="/projects/coronaapp" element={<Project project="coronaapp" />} />
-              <Route path="/projects/iot-weatherstation" element={<Project project="iot-weatherstation" />} />
+
+              {
+                projects.map((project, i) => (
+                    <Route key={"p" + i} path={"/projects/" + project.link} element={<Project index={i} />} />
+                  )
+                )
+              }
+
               <Route path="/contact" element={<ContactSection />} />
               <Route path="/resume" element={<Resume />} />
               <Route path="*" element={<Navigate to="/" />} />
