@@ -7,11 +7,12 @@ class Project extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      "project": props.project,
-      "name": jsonProjects[props.project]["name"],
-      "technologies": jsonProjects[props.project]["technologies"],
-      "description": jsonProjects[props.project]["description"],
-      "developmentTimespan": jsonProjects[props.project]["developmentTimespan"]
+      "index": props.index,
+      "project": jsonProjects.projects[props.index].link,
+      "name": jsonProjects.projects[props.index].name,
+      "technologies": jsonProjects.projects[props.index].technologies,
+      "description": jsonProjects.projects[props.index].description,
+      "developmentTimespan": jsonProjects.projects[props.index].developmentTimespan
     };
   }
 
