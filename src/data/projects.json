@@ -40,5 +40,17 @@
             "developmentTimespan": "This project was developed between November 2019 and March 2020. It's been updated again in July and August 2022 for a better Data Storage, so all Data could be used for training a Weather Forecast AI.",
             "alwaysshown": "no"
         }
+    ],
+    "example-item": [
+        {
+            "name": "Name",
+            "link": "Link",
+            "technologies": [
+                "Technology"
+            ],
+            "description": "Description",
+            "developmentTimespan": "Timespan",
+            "alwaysshown": "yes|no"
+        }
     ]
 }
