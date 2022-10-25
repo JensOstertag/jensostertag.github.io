@@ -9,7 +9,7 @@ class HomeSection extends React.Component {
                     Jens Ostertag
                 </h1>
                 <p className="viewport-animation viewport-bottom">
-                    A Full Stack Developer and Computer Scientist
+                    A Full Stack Software Engineer and Computer Scientist
                 </p>
             </section>
         )
