@@ -9,6 +9,7 @@
 
 .technology-item img {
     margin-bottom: 1rem;
+    width: 100%;
 }
 
 .technology-item .project-item-content-wrapper {

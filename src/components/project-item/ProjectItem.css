@@ -21,6 +21,7 @@
 .project-item img {
     border-top-left-radius: .25em;
     border-top-right-radius: .25em;
+    width: 100%;
 }
 
 .project-item .project-item-content-wrapper {
