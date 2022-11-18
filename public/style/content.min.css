@@ -1,5 +1,6 @@
 section {
   padding: 10% 20%;
+  background-color: var(--clr-bright1);
 }
 
 @media screen and (max-width: 768px) {
