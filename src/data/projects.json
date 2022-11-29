@@ -11,13 +11,13 @@
             "alwaysshown": "yes"
         },
         {
-            "name": "3D Printer",
-            "link": "3dprinter",
+            "name": "What To Eat Today?",
+            "link": "whattoeattoday",
             "technologies": [
-                "C++", "MarlinFirmware"
+                "React", "JavaScript", "HTML", "CSS"
             ],
-            "description": "This is custom-designed FDM 3D Printer running on Marlin Firmware. It has a Print Size of approximatley 14x14x20cm. All the Models are uploaded on the <a href=\"https://github.com/JensOstertag/3DPrinter\">GitHub Repository</a>.",
-            "developmentTimespan": "This Project was developed between November 2020 and March 2021.",
+            "description": "WhatToEatToday is a Website built to decide over a quick and easy weeknight Meal with only a few questions.",
+            "developmentTimespan": "This project was developed between September and December 2022. I'm trying to keep it updated with more Food to be generated.",
             "alwaysshown": "yes"
         },
         {
@@ -29,6 +29,16 @@
             "description": "During the first Lockdown back in March 2020, I've read about the Development of a Smartphone App used for tracking Contact Persons using BlueTooth. Because it took quite a While until the official App was released, together with a Friend I've worked on our own Version which ended up to be very similar to the Original one.",
             "developmentTimespan": "This project was developed between April and May 2020.",
             "alwaysshown": "yes"
+        },
+        {
+            "name": "3D Printer",
+            "link": "3dprinter",
+            "technologies": [
+                "C++", "MarlinFirmware"
+            ],
+            "description": "This is custom-designed FDM 3D Printer running on Marlin Firmware with the Goal to be relatively cheap and simple. It has a Print Size of approximatley 14x14x20cm. All the Models are uploaded on the <a href=\"https://github.com/JensOstertag/3DPrinter\">GitHub Repository</a>.",
+            "developmentTimespan": "This Project was developed between November 2020 and March 2021.",
+            "alwaysshown": "no"
         },
         {
             "name": "IoT-capable Weatherstation",
