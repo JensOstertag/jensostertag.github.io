@@ -5,10 +5,10 @@ class ContactSection extends React.Component {
     render() {
         return (
             <section id="contact">
-                <h1 className="viewport-animation viewport-top">
+                <h1 className="viewport-animation viewport-left">
                     Contact
                 </h1>
-                <p className="viewport-animation viewport-top">
+                <p className="viewport-animation viewport-left">
                     You can send me an E-Mail by clicking on the following button:
                 </p>
                 <center className="viewport-animation viewport-bottom">

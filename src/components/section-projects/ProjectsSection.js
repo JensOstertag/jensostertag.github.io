@@ -15,7 +15,7 @@ class ProjectsSection extends React.Component {
     render() {
         return (
             <section id="projects">
-                <h1 className="viewport-animation viewport-top">
+                <h1 className="viewport-animation viewport-left">
                     Projects
                 </h1>
                 <ProjectsList preview={this.state.preview} />

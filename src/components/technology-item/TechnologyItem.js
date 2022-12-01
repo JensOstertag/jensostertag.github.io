@@ -12,7 +12,7 @@ class TechnologyItem extends React.Component {
 
     render() {
         return (
-            <div className="technology-item viewport-animation viewport-top">
+            <div className="technology-item viewport-animation viewport-slow viewport-left">
                 <img src={this.state.technologyImage} alt="Technology" />
                 <div className="technology-item-content-wrapper">
                     <p>

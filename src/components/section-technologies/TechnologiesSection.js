@@ -8,7 +8,7 @@ class TechnologiesSection extends React.Component {
         return (
             <section id="technologies">
                 <div className="wrapper">
-                    <h1 className="viewport-animation viewport-top">
+                    <h1 className="viewport-animation viewport-slow viewport-left">
                         Technologies
                     </h1>
                     <TechnologiesList />
