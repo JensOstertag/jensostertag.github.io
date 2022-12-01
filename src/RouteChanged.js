@@ -1,7 +1,7 @@
 import { useLayoutEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
-import * as Viewport from './viewport.js';
+import * as Viewport from './intersectionobserver.js';
 
 function ScrollToTop({ children }) {
     const location = useLocation();
