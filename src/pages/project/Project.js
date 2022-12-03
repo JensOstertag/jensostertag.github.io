@@ -30,14 +30,14 @@ class Project extends React.Component {
 
     return (
       <section id="project">
-        <h1 className="viewport-animation viewport-top">
+        <h1 className="viewport-animation viewport-left">
           {this.state.name}
         </h1>
-        <p className="project-technology viewport-animation viewport-top">
+        <p className="project-technology viewport-animation viewport-left">
           {technologies}
         </p>
-        <p dangerouslySetInnerHTML={{__html: this.state.description}} className="viewport-animation viewport-bottom" />
-        <p className="viewport-animation viewport-bottom">
+        <p dangerouslySetInnerHTML={{__html: this.state.description}} className="viewport-animation viewport-left" />
+        <p className="viewport-animation viewport-left">
           {this.state.developmentTimespan}
         </p>
       </section>

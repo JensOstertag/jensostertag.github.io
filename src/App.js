@@ -1,6 +1,6 @@
 import React from 'react';
 import {HashRouter as Router, Routes, Route, Navigate} from 'react-router-dom';
-import * as Viewport from './viewport.js';
+import * as Viewport from './intersectionobserver.js';
 import './App.css';
 
 import Header from './components/header/Header';

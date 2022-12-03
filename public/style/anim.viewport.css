@@ -3,27 +3,23 @@
   transition: all 250ms ease;
 }
 
-.viewport-animation-hidden {
+.viewport-slow {
+  transition: all 500ms ease;
+}
+
+.viewport-animation:not(.viewport-visible) {
   opacity: 0%;
 }
 
-.viewport-animation-hidden.viewport-left {
+.viewport-animation.viewport-left:not(.viewport-visible) {
   left: -50px;
 }
 
-.viewport-animation-hidden.viewport-right {
+.viewport-animation.viewport-right:not(.viewport-visible) {
   left: 50px;
 }
 
-.viewport-animation-hidden.viewport-top {
-  top: -50px;
-}
-
-.viewport-animation-hidden.viewport-bottom {
-  top: 50px;
-}
-
-.viewport-animation-shown {
+.viewport-visible {
   opacity: 100%;
   left: 0;
   right: 0;

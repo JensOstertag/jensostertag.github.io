@@ -15,7 +15,7 @@ class ProjectItem extends React.Component {
 
     render() {
         return (
-            <div className="project-item viewport-animation viewport-top" preview={this.state.preview}>
+            <div className="project-item" preview={this.state.preview}>
                 <img src={this.state.projectImage} alt="Project" />
                 <div className="project-item-content-wrapper">
                     <p>
