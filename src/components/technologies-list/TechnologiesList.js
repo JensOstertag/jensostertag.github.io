@@ -17,6 +17,7 @@ class ProjectsList extends React.Component {
                 <TechnologyItem technology="React" />
                 <TechnologyItem technology="PHP" />
                 <TechnologyItem technology="MySQL" />
+                <TechnologyItem technology="WordPress" />
                 <TechnologyItem technology="TensorFlow" />
                 <TechnologyItem technology="Python" />
                 <TechnologyItem technology="LaTeX" />
